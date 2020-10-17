@@ -1,0 +1,41 @@
+.logo {
+  width: 90px; }
+
+#banner {
+  position: relative; }
+  #banner .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(0.65); }
+  #banner .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(25, 48, 60, 0.5);
+    z-index: 100;
+    color: #ffffff; }
+    #banner .overlay .container,
+    #banner .overlay .row {
+      height: 100%; }
+
+#footer {
+  background-color: #19303c; }
+  #footer ul,
+  #footer li {
+    padding: 0; }
+  #footer li {
+    list-style: none; }
+    #footer li a {
+      color: #ffffff; }
+
+.text-platzi {
+  color: #95ca3e; }
+
+.btn-platzi {
+  background-color: #95ca3e;
+  color: #ffffff !important; }
+
+.btn-platzi:hover {
+  background-color: #79a72e; }

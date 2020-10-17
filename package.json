@@ -1,0 +1,15 @@
+{
+  "name": "bootstrap-platzi-conf",
+  "version": "1.0.0",
+  "description": "Una página de Platzi hecha con bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass ./src/scss/ -o ./src/"
+  },
+  "author": "SDanielBS <bernuysergio.12@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
